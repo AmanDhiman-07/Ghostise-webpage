@@ -1,0 +1,428 @@
+@font-face {
+    font-family: NB;
+    src: url(./video/NBInternationalProBoo.woff2);
+}
+
+@font-face {
+    font-family: Rejoy;
+    src: url(./video/Rejouice-Headline.ttf);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: NB;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+}
+
+#curser {
+    height: 7vw;
+    width: 7vw;
+    background-color: #FF5F38;
+    border-radius: 50%;
+    position: fixed;
+    z-index: 9;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transform: translate(-50%, -50%);
+}
+
+#curser h5 {
+    font-weight: 500;
+    font-size: 1.2vw;
+}
+
+#page1 {
+    height: 100vh;
+    width: 100%;
+    /* background-color: red; */
+    position: relative;
+
+}
+
+#page1 video {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    position: absolute;
+}
+
+#page1-contant {
+    height: 100%;
+    width: 100%;
+    /* background-color: #000000; */
+    position: relative;
+    z-index: 10;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+    /* padding-bottom: 5vw; */
+}
+
+nav {
+    /* height: 100px; */
+    width: 100%;
+    /* background-color: red; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2vw 3vw;
+}
+
+nav h3 {
+    font-size: 1.4vw;
+    font-weight: 100;
+}
+
+nav h4 {
+    font-size: 1.4vw;
+    font-weight: 100;
+}
+
+#page1-contant h1 {
+    font-family: Rejoy;
+    font-size: 23vw;
+    font-weight: 200;
+    line-height: 20vw;
+}
+
+#page1-contant h1 span {
+    font-family: Rejoy;
+    display: inline-block;
+}
+
+#page2 {
+    height: 100vh;
+    width: 100%;
+    background-color: #FAF8F3;
+    position: relative;
+}
+
+#page2-content {
+    display: flex;
+    align-content: center;
+    justify-content: space-between;
+    padding: 5vw 2vw;
+}
+
+#page2-content h4 {
+    font-size: 1.5vw;
+    font-weight: 200;
+    font-family: Rejoy;
+}
+
+#page2-content2 h1 {
+    font-weight: 300;
+    padding: 0.5vw 2vw;
+    line-height: 4vw;
+    font-size: 4vw;
+    margin-left: 5vw;
+    text-align: center;
+}
+
+#page3 {
+    min-height: 100vh;
+    width: 100%;
+    background-color: #FAF8F3;
+    position: relative;
+    padding: 3vw;
+
+}
+
+#page3-content {
+    /* background-color: red; */
+    text-align: center;
+}
+
+#page3-content h4 {
+    margin-bottom: 1vw;
+    font-size: 1vw;
+    font-weight: 500;
+}
+
+#page3-content h4 span {
+    background-color: black;
+    color: white;
+    font-size: 0.8vw;
+    border-radius: 5vw;
+    padding: 1vh 0.8vh;
+}
+
+#page3-content h2 {
+    font-size: 3.5vw;
+    font-weight: 500;
+    font-family: Rejoy;
+}
+
+#page3-element {
+    height: 70vh;
+    width: 100%;
+    /* background-color: red; */
+    display: flex;
+    justify-content: space-between;
+    margin-top: 8vw;
+}
+
+#page3-element .box {
+    height: 100%;
+    width: 32.5%;
+    /* background-color: blue; */
+    position: relative;
+}
+
+#page3-element .box video {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+    /* box-shadow: rgba(255, 194, 26, 0.979) 10px 9px 30px; */
+    border-radius: 9vw;
+}
+
+#page3-element .box img {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 9vw;
+
+}
+
+#page3-element .box:hover img {
+    opacity: 0;
+    transition: all linear 0.4s;
+}
+
+#mannu {
+    height: 100%;
+    width: 100%;
+    background-color: #FAF8F3;
+    padding-top: 6vw;
+    position: relative;
+    z-index: 99;
+}
+
+#mannu h2 {
+    padding: 2vw;
+    font-weight: 200;
+}
+
+#mannu h2 hr {
+    margin-top: 1vw;
+
+}
+
+#mannu h1 {
+    padding: 2vw;
+    margin: 2vh 3vh;
+    margin-bottom: 15vh;
+    position: relative;
+    font-weight: 200;
+    font-size: 3.7vw;
+    line-height: 4.4vw;
+    text-align: center;
+}
+
+#mannu h1 span {
+    padding: 8vw;
+}
+
+#curser2 {
+    height: 7vw;
+    width: 7vw;
+    background-color: #000;
+    position: absolute;
+    z-index: 9;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transform: translate(-50%, -50%)
+}
+
+#curser2 h5 {
+    font-weight: 500;
+    font-size: 1.2vw;
+    color: #fff;
+
+}
+
+#page4 {
+    height: 100vh;
+    width: 100%;
+    position: relative;
+    z-index: 10;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* background-color: #FAF8F3; */
+}
+
+#page4 video {
+    height: 120%;
+}
+
+#page4 svg {
+    position: absolute;
+    height: 70%;
+}
+
+#page4 h2 {
+    font-weight: 100;
+    font-size: 3vw;
+}
+
+#page5 {
+    height: 100vh;
+    width: 96%;
+    /* background-color: red; */
+    /* position: relative; */
+    margin-left: 2%;
+}
+
+#page5 h1 {
+    font-family: Rejoy;
+    font-size: 10vw;
+    font-weight: 200;
+    border-bottom: 2px solid black;
+}
+
+#swiperdiv {
+    height: 60vh;
+    width: 100%;
+    /* background-color: rgb(238, 202, 196); */
+    position: relative;
+    margin-top: -5%;
+}
+
+.swiper {
+    width: 100%;
+    height: 100%;
+}
+
+.swiper-slide {
+    /* width: 100%; */
+    text-align: center;
+    font-size: 18px;
+    background: transparent;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-end;
+
+}
+
+.swiper-slide img {
+    display: block;
+    width: 16%;
+    /* height: 100%; */
+    object-fit: cover;
+    border-radius: 5vw;
+}
+
+#loader {
+    height: 103%;
+    width: 100%;
+    background-color: #000000;
+    position: absolute;
+    top: 0;
+    z-index: 99;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+#loader {
+    gap: 1vw;
+    font-family: Rejoy;
+    font-size: 1.5vw;
+    font-weight: 100;
+}
+
+#footer {
+    height: 100vh;
+    width: 100%;
+    background-color: #000;
+    color: #fff;
+    border-radius: 3vw;
+    position: absolute;
+}
+
+#footerdiv {
+    height: 20%;
+    width: 100%;
+    /* background-color: red; */
+    display: flex;
+    align-content: space-between;
+    justify-content: space-between;
+}
+
+#footerdiv {
+    padding: 2vw 3vw;
+}
+
+#footerdiv h4 {
+    font-weight: 100;
+    font-size: 2vw;
+}
+
+#footerdiv h4 button {
+    margin: 2vw;
+}
+
+#footerdiv button {
+    padding: 1vw 2vw;
+    background-color: #000;
+    color: white;
+    font-size: 1.2vw;
+    border: 1px solid #fff;
+    border-radius: 0.5vw;
+}
+
+#footerdiv h5 {
+    padding: 1vw;
+    font-weight: 200;
+    font-size: 2vw;
+}
+
+#footerdiv2 {
+    /* background-color: red; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#footerdiv2 {
+    margin-top: 15vw;
+    padding: 2vw 3vw;
+}
+
+#footerdiv2 h4 {
+    font-weight: 200;
+    font-family: Rejoy;
+}
+
+#footer h1 span {
+    font-size: 15vw;
+    font-weight: 200;
+    margin-left: 2.5vw;
+    background-color: red;
+}
+
+#footerdiv h4 button:hover {
+    background-color: red;
+}
+
+#footerdiv h5:hover {
+    color: indigo;
+}
